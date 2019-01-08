@@ -40,7 +40,7 @@ public class tcpserver
             outToClient.writeBytes("HTTP/1.1 200 OK\r\n");
             outToClient.writeBytes("Server: Kris demo server\r\n");
             outToClient.writeBytes("\r\n");
-            outToClient.writeBytes("Hum hum, foo, bar,... and magic. counter = " + counter);
+            outToClient.writeBytes("Hum hum, foo, bar,... and og masser af sjov. counter = " + counter);
             outToClient.writeBytes("\r\n");
             outToClient.writeBytes("Echo: " + fileName);
             connectionSocket.close();
